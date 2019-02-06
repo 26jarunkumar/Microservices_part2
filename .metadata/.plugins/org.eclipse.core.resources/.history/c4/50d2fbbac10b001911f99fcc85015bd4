@@ -1,0 +1,9 @@
+package com.arun.curencyexchange.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.arun.curencyexchange.ExchangeValue;
+
+public interface ExchangeValueRepository extends JpaRepository<ExchangeValue,Long > {
+
+}

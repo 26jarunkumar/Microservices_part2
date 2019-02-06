@@ -1,0 +1,13 @@
+package com.arun.limits.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.arun.limits.configuration.LimitConfiguration;
+
+@RestController
+public class LimitsConfigController {
+
+	public LimitConfiguration getDefaultLimits() {
+		return new LimitConfiguration(1000,1);		
+	}
+}

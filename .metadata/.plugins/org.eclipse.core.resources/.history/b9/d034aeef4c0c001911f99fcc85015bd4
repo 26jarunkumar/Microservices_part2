@@ -1,0 +1,5 @@
+package com.arun.curencyconversion.feignproxy;
+
+public interface CurrencyExchangeFeignProxy {
+
+}

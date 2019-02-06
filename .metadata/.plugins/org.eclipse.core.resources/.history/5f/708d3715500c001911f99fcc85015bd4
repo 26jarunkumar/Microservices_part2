@@ -1,0 +1,15 @@
+package com.arun.curencyconversion;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@EnableFeignClient("com.arun.curencyconversion")
+public class CurrencyConversionServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CurrencyConversionServiceApplication.class, args);
+	}
+
+}
+
